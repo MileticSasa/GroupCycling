@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="#2A7A2D"
+    android:layout_margin="3dp">
+
+    <TextView
+        android:id="@+id/p_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textColor="@color/my_yellow"
+        android:textSize="23sp"/>
+
+    <TextView
+        android:id="@+id/p_pos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="latLng"
+        android:textColor="@color/my_yellow"
+        android:textSize="16sp"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

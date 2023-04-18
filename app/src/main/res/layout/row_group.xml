@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="13dp"
+    android:layout_marginBottom="10dp"
+    android:background="@null">
+
+    <RelativeLayout
+        android:id="@+id/parentView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#8FB190">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/groupTitle"
+            android:text="Group title"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:layout_marginStart="5dp"/>
+
+        <TextView
+            android:id="@+id/createdBy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Created by"
+            android:layout_below="@+id/groupTitle"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="3dp"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/creator"
+            android:text="Creator name"
+            android:layout_toEndOf="@+id/createdBy"
+            android:layout_below="@+id/groupTitle"
+            android:layout_marginTop="3dp"
+            android:textSize="14sp"
+            android:layout_marginStart="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/time"
+            android:text="12:12 PM"
+            android:layout_below="@id/creator"
+            android:layout_alignParentEnd="true"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

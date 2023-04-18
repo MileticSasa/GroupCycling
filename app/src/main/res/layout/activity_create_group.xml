@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.CreateGroupActivity"
+    android:background="#2A7A2D">
+
+    <EditText
+        android:id="@+id/groupName"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="156dp"
+        android:hint="Group name"
+        android:padding="6dp"
+        android:background="@drawable/text_background_rounded"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginRight="14dp"
+        android:layout_marginLeft="14dp"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:hint="password"
+        android:padding="6dp"
+        android:background="@drawable/text_background_rounded"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="@+id/groupName"
+        app:layout_constraintStart_toStartOf="@+id/groupName"
+        app:layout_constraintTop_toBottomOf="@+id/groupName" />
+
+    <Button
+        android:id="@+id/createGroupBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="create group"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/password"
+        app:layout_constraintStart_toStartOf="@+id/password"
+        app:layout_constraintTop_toBottomOf="@+id/password"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginLeft="14dp"
+        android:background="@drawable/button_orange_corner_radius"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

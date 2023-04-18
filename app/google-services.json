@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "581439347859",
+    "project_id": "groupcycling-180ec",
+    "storage_bucket": "groupcycling-180ec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:581439347859:android:04b026c360fa26a0f90166",
+        "android_client_info": {
+          "package_name": "com.example.groupcycling"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "581439347859-98j3839gvrsfb7frk51v52kt3nmeanmb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAz0_DAB_aCCCivur_A-Nm5szNZApG7dU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "581439347859-98j3839gvrsfb7frk51v52kt3nmeanmb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
